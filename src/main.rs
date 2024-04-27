@@ -115,7 +115,7 @@ async fn rollout() -> io::Result<()> {
 
     if success {
     let commit_message = "flint automation";
-    let git_commit_command = format!("git push origin {}", random_code);
+    let git_commit_command = format!("git push origin main");
     let git_commit_cstring = CString::new(git_commit_command).expect("Failed to create CString");
 
     unsafe {

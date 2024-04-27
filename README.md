@@ -30,6 +30,22 @@ Flint is designed with developers in mind, making the setup process a breeze. Fo
 
 For an in-depth exploration of Flint's functionalities and features, refer to our extensive documentation available in the [Docs folder](docs/).
 
+
+
+## Flint - Quick Install
+
+Install Flint in seconds:
+
+1. Download the release for your OS: [here] (replace with actual Flint download link)
+2. Open terminal and navigate to Downloads: `cd Downloads`
+3. Copy Flint to system path (replace `<release name>` with actual filename):
+
+   ```bash
+   sudo cp <release name> /usr/local/bin
+
+
+
+
 ##  Join the Flint Community
 
 We believe in the power of collaboration! We encourage contributions from our vibrant developer community. To learn more about contributing to Flint's development, please refer to the [Contribution Guidelines](contributing.md).
